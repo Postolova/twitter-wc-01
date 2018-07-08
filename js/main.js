@@ -53,7 +53,7 @@ $(document).ready(function() {
 	var twittsBase = [ 
 	{
 		date: '07 июля 2018 13 часов 45 минут',
-		text: 'Создала каркас клон-твиттера. Огромное спасибо <a href="http://webcademy.ru">Webcademy</a>'
+		text: 'Создала каркас клон-твиттера. Огромное спасибо http://webcademy.ru'
 	}, {
 		date: '08 июля 2018 10 часов 15 минут',
 		text: 'Скоро еще один урок. Будет круто!'
