@@ -33,11 +33,7 @@
 						<ul class="stats">
 							<li class="stats-item">
 								<b class="stats-title">Твиты</b>
-								<b class="stats-count">57</b>
-							</li>
-							<li class="stats-item">
-								<b class="stats-title">Репосты</b>
-								<b class="stats-count">6</b>
+								<b id="twittCount" class="stats-count"></b>
 							</li>
 						</ul>
 					</div>
@@ -48,9 +44,9 @@
 				<div class="card mb-3">
 					<!-- make a twitt -->
 					<div class="card-body">
-						<form>
+						<form id="postNewTwitt">
 							  <div class="form-group">
-							    <input type="text" class="form-control" id="exampleInputEmail1"placeholder="Что нового?">
+							    <input type="text" id="textTwitt" class="form-control" id="exampleInputEmail1"placeholder="Что нового?">
 							  </div>
 							  <button type="submit" class="btn btn-primary">Твитнуть</button>
 							</form>
@@ -58,29 +54,11 @@
 					<!-- twitt -->
 				</div>
 				<!-- twitt -->
-				<div class="card twitt-card twitt-card-round-top">
+				<div class="card card-title-only twitt-card-round-top">
 					<div class="h4 mb-0">Твиты пользователя</div>
 				</div>
-				<!-- single twitt -->
-				<div class="card twitt-card">
-					<div class="twitt-date">07 июл 2018</div>
-					<div class="twitt-text font-size-normal">
-						<p>Создала каркас клон-твиттера. Огромное спасибо <a href="#">Webcademy</a></p>
-					</div>
-				</div>
-
-				<div class="card twitt-card">
-					<div class="twitt-date">08 июл 2018</div>
-					<div class="twitt-text font-size-large">
-						<p>Скоро еще один урок. Будет круто!</p>
-					</div>
-				</div>
-
-				<div class="card twitt-card">
-					<div class="twitt-date">09 июл 2018</div>
-					<div class="twitt-text font-size-small">
-						<p>Здесь будет много текста. Здесь будет много текста. Здесь будет много текста. Здесь будет много текста. Здесь будет много текста. Здесь будет много текста. Здесь будет много текста.</p>
-					</div>
+				<div class="listTwitt">
+					<!-- single twitt -->
 				</div>
 				<!-- footer -->
 				<footer class="footer">
@@ -95,8 +73,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="libs/jquery/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="libs/jquery/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
-    <script src="libs/bootstrap/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="libs/bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
   </body>
 </html>

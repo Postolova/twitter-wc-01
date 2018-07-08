@@ -59,6 +59,11 @@
   font-size: 22px;
   font-weight: 800;
 }
+.card-title-only {
+  padding: 1.25em;
+  border-bottom: 0px;
+  border-radius: 0.25rem 0.25rem 0 0;
+}
 .twitt-card {
   padding: 1.25em;
   border-radius: 0;
