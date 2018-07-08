@@ -1,0 +1,123 @@
+.profile-background {
+  height: 120px;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+.profile-avatar {
+  height: 90px;
+  width: 90px;
+  overflow: hidden;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  margin-top: -50px;
+  border: 4px solid #fff;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-avatar img {
+  max-width: 100%;
+  height: auto;
+}
+.profile-title {
+  font-size: 22px;
+  font-weight: 800;
+  text-align: center;
+}
+.profile-description {
+  font-family: 'Noto Serif', serif;
+  font-style: italic;
+  text-align: center;
+}
+.stats {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.stats-item {
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.stats-title {
+  font-size: 14px;
+  color: #6EA2F7;
+}
+.stats-count {
+  color: #1FB3FF;
+  font-size: 22px;
+  font-weight: 800;
+}
+.twitt-card {
+  padding: 1.25em;
+  border-radius: 0;
+  border-bottom: 0px;
+}
+.twitt-card:first-child {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.twitt-card:last-child {
+  border-bottom: 1px solid #000000;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.twitt-card-round-top {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.twitt-date {
+  font-size: 14px;
+  font-weight: 800;
+  border-bottom: 0.5em;
+}
+.twitt-text p {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.twitt-text a {
+  color: #1FB3FF;
+}
+.font-size-small p {
+  font-size: 16px;
+}
+.font-size-normal p {
+  font-size: 20px;
+}
+.font-size-large p {
+  font-size: 22px;
+}
+.footer {
+  color: #6EA2F7;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #1FB3FF;
+  font-weight: 800;
+}
+.footer p {
+  line-height: 2;
+  padding-bottom: 16px;
+}
+.footer .fa-heart {
+  color: #FF0000;
+}
+body {
+  background-color: #D4D4D4;
+  color: #000;
+  font-family: 'Noto Sans', sans-serif;
+  padding-top: 20px;
+}
+h1 {
+  font-size: 32px;
+  color: #E1E400;
+}

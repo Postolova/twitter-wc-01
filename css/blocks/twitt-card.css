@@ -1,0 +1,36 @@
+.twitt-card {
+  padding: 1.25em;
+  border-radius: 0;
+  border-bottom: 0px;
+}
+.twitt-card:first-child {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.twitt-card:last-child {
+  border-bottom: 1px solid #000000;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.twitt-card-round-top {
+  border-radius: 0.25rem 0.25rem 0 0;
+}
+.twitt-date {
+  font-size: 14px;
+  font-weight: 800;
+  border-bottom: 0.5em;
+}
+.twitt-text p {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.twitt-text a {
+  color: #1FB3FF;
+}
+.font-size-small p {
+  font-size: 16px;
+}
+.font-size-normal p {
+  font-size: 20px;
+}
+.font-size-large p {
+  font-size: 22px;
+}
